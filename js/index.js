@@ -49,5 +49,5 @@ $(document).ready(function() {
     getLocation();
     setTimeout(function() {
         initMap();
-    }, 300);
+    }, 600);
 });
