@@ -47,6 +47,8 @@ function initMap() {
     });	
 }
 
-setTimeout(function() {
-    initMap();
-}, 400);
+$(document).ready(function() {
+    setTimeout(function() {
+        initMap();
+    }, 500);
+});
