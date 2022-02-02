@@ -16,8 +16,8 @@ getLocation();
 function initMap() {
     var $latitude = document.getElementById('latitude');
     var $longitude = document.getElementById('longitude');
-    var latitude = 23.7722915;
-    var longitude = 90.3492161;
+    var latitude = $latitude.value;
+    var longitude = $longitude.value;
     var zoom = 13;
     
     var LatLng = new google.maps.LatLng(latitude, longitude);
@@ -47,4 +47,6 @@ function initMap() {
     });	
 }
 
-initMap();
+setTimeout(function() {
+    initMap();
+}, 300);
