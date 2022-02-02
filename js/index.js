@@ -49,4 +49,4 @@ function initMap() {
 
 setTimeout(function() {
     initMap();
-}, 300);
+}, 400);
