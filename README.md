@@ -8,7 +8,7 @@ Get Latitude & Longitude By Moving Navigator Pointer
 ![GMap Navigator](https://github.com/aralim11/google-map-latitude-longitude-navigator/blob/main/screenshot/gmap.PNG)
 
 
-## Project setup
+## Project Setup
 ```sh
 git clone https://github.com/aralim11/google-map-latitude-longitude-navigator
 cd google-map-latitude-longitude-navigator

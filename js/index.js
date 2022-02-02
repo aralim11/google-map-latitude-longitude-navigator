@@ -11,8 +11,6 @@ function showPosition(position) {
     document.getElementById('longitude').value = position.coords.longitude;
 }
 
-getLocation();
-
 function initMap() {
     var $latitude = document.getElementById('latitude');
     var $longitude = document.getElementById('longitude');
@@ -48,7 +46,8 @@ function initMap() {
 }
 
 $(document).ready(function() {
+    getLocation();
     setTimeout(function() {
         initMap();
-    }, 500);
+    }, 300);
 });
